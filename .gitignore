@@ -1,5 +1,7 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vscode
+.idea
 
 # Compiled Object files
 *.slo
@@ -41,6 +43,7 @@
 *.VC.db
 *.VC.opendb
 .vsconfig
+*.code-workspace
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -70,6 +73,7 @@ Saved/*
 # Compiled source files for the engine to use
 Intermediate/*
 Plugins/**/Intermediate/*
+Makefile
 
 # Cache files for the editor to use
 DerivedDataCache/*
