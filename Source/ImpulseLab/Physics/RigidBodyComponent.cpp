@@ -3,6 +3,14 @@
 
 #include "RigidBodyComponent.h"
 
+URigidBodyComponent::URigidBodyComponent(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
+	Position = FVector::ZeroVector;
+	Velocity = FVector::ZeroVector;
+	Acceleration = FVector::ZeroVector;
+}
+
 URigidBodyComponent::URigidBodyComponent(const FVector& Position)
 {
 	this->Position = Position;

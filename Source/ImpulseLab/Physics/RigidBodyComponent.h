@@ -13,6 +13,7 @@ class IMPULSELAB_API URigidBodyComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
+	URigidBodyComponent(const FObjectInitializer& ObjectInitializer);
 	explicit URigidBodyComponent(const FVector& Position);
 
 	FVector Position;
